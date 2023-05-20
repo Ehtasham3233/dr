@@ -1,0 +1,7 @@
+.res_mobi{display: none;}
+.menu_m{background-color: #3ec2cf;padding: 12px 5px;float: left;width: 100%;height: 40px;position: relative;z-index: 9998;}
+.menu_m .left, .menu_m .right{float: left;}
+.menu_m .left{margin-right:10px;}
+.menu_top.show {display: block;}
+.menu_top.hide {display: none;}
+#off_light {width: 100%;height: 100%;background: rgba(0, 0, 0, .7);z-index: 15;position: fixed;top: 0;display: none;}

@@ -1,0 +1,131 @@
+@media only screen and (max-width: 969px) { 
+    *{margin:0;padding:0;outline:0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-mos-box-sizing:border-box;}
+   body{background-image: none;}
+   .container, .content-left{width:100%;}
+   .logo img{max-width: 100%;}
+   .content-right, .block.ads_place_728, ul.char-list, .switch-view, #layerslider, .logo a.ads-evt{display: none;}
+   .res_mobi{display: block;}
+   .content, .slide_mobilde{padding: 0 5px;}
+   .btn-btt{padding: 3px 6px;}
+   
+   .list-episode-item li{width: calc(50% - 10px);padding-top: 42%;}
+   
+   .list-popular li{ width: calc(50% - 2px);margin: 2px 0;}
+   .list-popular li{white-space: nowrap;overflow: hidden;}
+   
+   .search{position: absolute;right: 5px;top:8px;height: 22px;z-index: 9999;}
+   .search select{height: 22px;font-size: 11px;}
+   .search input{width: 70px;padding: 0 0 0 5px;line-height: 22px;font-size: 11px;}
+   .search button{padding: 0;height: 22px;}
+   .search button img{width: 60%;}
+
+   .navbar .user > .txt-account {background:#3EC2CF;padding:15px 20px;display:inline-block !important;}
+   .navbar .user > .account {display:none;}
+   .navbar .user .sub-nav {top:0 !important;}
+
+   .navbar .user:hover {background:none;}
+   .navbar .user .sub-nav a {color:#fff;}
+   
+   .menu_top {position: fixed;top: 0;left: 0;z-index: 100;width: 215px;height: 100%;max-width: 100%;padding-top: 40px;display: none;}
+   .menu_top ul{background-color: #000000;width: 100%;height: 100%;}
+   .navbar > li{width: 100%;border-top: solid 1px #262626;border-right: 0;}
+   .navbar > li:first-child{display: none;}
+   .navbar > li:last-child{border-bottom: solid 1px #262626;}
+   .navbar > li:hover,.navbar > li.selected {background: #3ec2cf;}
+   .navbar .sub-nav{width: 100%;position: inherit;top:0;background-color: #000000;}
+   .navbar > li > a{width: 100%;display: block;float: none;}
+   .sub-nav li {width: 100%;}
+   .sub-nav li a{color: #9da2aa;font-size: 13px;padding: 5px 20px;}
+   #off_light.show {display: block;}
+   #off_light.hide {display: none;}
+   .logo{height: 40px;}
+   #calendar{padding: 0 0 20px 0 !important} 
+   .list-content{width: 100%;}
+   .list-content:nth-child(3n+2){margin: 0 0 10px 0;}
+   
+   .plugins2 ul li i{display: inline-block !important;font-size: 16px;width: 20px;text-align: center;}
+   .plugins2 ul li.direction i{width: auto !important;text-align: left !important;}
+   .plugins2 ul li span{display: none;}
+   .block-tab .report2{display: none !important;}
+   .plugins2 ul li.reports{display: inline-block !important;}
+   .plugins2 .direction select{padding: 5px 5px 4px 5px !important}
+   
+   .watch-drama .category{position: inherit !important;right: 0!important; top: 0!important;padding-bottom: 10px!important;white-space: normal;max-width: inherit !important;}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 969px) {
+   .list-popular li{ width: 33%;margin: 2px 0;}
+   .list-episode-item li{width: calc(25% - 10px);padding-top: 22%;}
+   #layerslider{display: block;}
+   .search input{width:300px}
+   .list-content{width: 32%;}
+   .list-content:nth-child(3n+2){margin: 0 calc(2% - 4px) 10px 2%;}
+}
+@media only screen and (min-width: 726px) and (max-width: 799px) {
+   .list-popular li{ width: 33%;margin: 2px 0;}
+   .list-episode-item li{width: calc(25% - 10px);padding-top: 22%;}
+   .search input{width:300px}
+   .list-content{width: 32%;}
+   .list-content:nth-child(3n+2){margin: 0 calc(2% - 4px) 10px 2%;}
+}
+@media only screen and (min-width: 610px) and (max-width: 725px) {
+    .list-episode-item li{width: calc(33.33% - 10px);padding-top: 32%;}
+    .search input{width:200px}
+    .list-star > li{width: 100%}
+    .list-star > li .img{width: 130px;padding-top: 130px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 609px) {
+    .list-episode-item li{width: calc(33.33% - 10px);padding-top: 32%;}
+    .search input{width:150px}
+    .list-star > li{width: 100%}
+    .list-star > li .img{width: 130px;padding-top: 130px;}
+}
+@media only screen and (max-width: 479px) {
+    .ads_place_300_mobile {display: block;text-align: center;}
+    .ls-bottom-nav-wrapper, .pagination li.first,.pagination li.previous, .pagination li.next, .pagination li.last {display: none;}
+    .list-popular li{width: 100%;}
+    #layerslider{height: 150px;}
+    .list-star > li{width: 100%}
+    .list-star > li .img{width: 130px;padding-top: 130px;}
+    .pagination li a{padding: 5px 10px;}
+    .pagination{border-right: 1px solid #ddd;}
+    
+    .details .img{width: 100px;}
+    .list-episode-item-2 .time{display: none;}
+    .slider-star .item .title{width: 100%;left: 3px;}
+    
+    .watch-drama .category{position: inherit !important;right: 0!important; top: 0!important;padding-bottom: 10px!important;}
+    
+    .report2{position: inherit !important;margin-bottom: 6px !important;}
+    .plugins2{margin-top: 6px !important}
+    .plugins2 li{margin-bottom: 6px;}
+    
+    .watch_video.watch-iframe{padding: 0;min-height: 260px;background-color: #000;}
+    .watch-videojs::before, .watch-iframe::before{margin-top: 0 !important;}
+    #block-tab-video.block{padding: 0 !important;}
+    
+    .plugins2 ul li.direction span{display: none;}
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+   .search input{width:100px}
+   
+   #block-tab-video{}
+   .plugins2 ul li i{width: 16px;}
+   .plugins2 .direction select{}
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    #tab-video.tab li{width:49%; margin-bottom: 4px;}
+    .block-tab .report2{position: absolute !important;top: 30px !important; left:  50%!important;right: 5px !important;}
+    .anime_muti_link ul li a{font-size: 11px !important;padding: 10px 0 9px 28px !important}
+}
+@media only screen and (max-width: 319px) {
+    .tab li{padding:5px;}
+    .search input{width: 50px;}
+    .details .img{width: 100%;}
+}
+@media only screen and (max-width: 220px) {
+    .list-episode-item li{width: calc(100% - 10px);padding-top: 72%;}
+}
+@media only screen and (max-width: 725px) {
+    .ui-autocomplete {right:0;left:auto !important;}
+}
